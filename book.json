@@ -9,210 +9,314 @@
       "title": "字为什么有不同的性格",
       "source": "chapters/01.md",
       "slug": "chapter-01",
-      "figure": "assets/images/fig-01.png"
+      "figure": "assets/images/fig-01.png",
+      "part": "part1"
     },
     {
       "id": "ch02",
       "title": "字体、字形、书法、手写字与标志字",
       "source": "chapters/02.md",
       "slug": "chapter-02",
-      "figure": "assets/images/fig-02.png"
+      "figure": "assets/images/fig-02.png",
+      "part": "part1"
     },
     {
       "id": "ch03",
       "title": "观察字的工具",
       "source": "chapters/03.md",
       "slug": "chapter-03",
-      "figure": "assets/images/fig-03.png"
+      "figure": "assets/images/fig-03.png",
+      "part": "part1"
     },
     {
       "id": "ch04",
       "title": "汉字书写、刻印与印刷字的演变",
       "source": "chapters/04.md",
       "slug": "chapter-04",
-      "figure": "assets/images/fig-04.png"
+      "figure": "assets/images/fig-04.png",
+      "part": "part2"
     },
     {
       "id": "ch05",
       "title": "拉丁字母与印刷字体的发展",
       "source": "chapters/05.md",
       "slug": "chapter-05",
-      "figure": "assets/images/fig-05.png"
+      "figure": "assets/images/fig-05.png",
+      "part": "part2"
     },
     {
       "id": "ch06",
       "title": "从金属活字到数字屏幕",
       "source": "chapters/06.md",
       "slug": "chapter-06",
-      "figure": "assets/images/fig-06.png"
+      "figure": "assets/images/fig-06.png",
+      "part": "part2"
     },
     {
       "id": "ch07",
       "title": "宋体与明朝体",
       "source": "chapters/07.md",
       "slug": "chapter-07",
-      "figure": "assets/images/fig-07.png"
+      "figure": "assets/images/fig-07.png",
+      "part": "part3"
     },
     {
       "id": "ch08",
       "title": "黑体及其不同面貌",
       "source": "chapters/08.md",
       "slug": "chapter-08",
-      "figure": "assets/images/fig-08.png"
+      "figure": "assets/images/fig-08.png",
+      "part": "part3"
     },
     {
       "id": "ch09",
       "title": "楷体、仿宋与书写风格",
       "source": "chapters/09.md",
       "slug": "chapter-09",
-      "figure": "assets/images/fig-09.png"
+      "figure": "assets/images/fig-09.png",
+      "part": "part3"
     },
     {
       "id": "ch10",
       "title": "拉丁衬线体",
       "source": "chapters/10.md",
       "slug": "chapter-10",
-      "figure": "assets/images/fig-10.png"
+      "figure": "assets/images/fig-10.png",
+      "part": "part3"
     },
     {
       "id": "ch11",
       "title": "拉丁无衬线体",
       "source": "chapters/11.md",
       "slug": "chapter-11",
-      "figure": "assets/images/fig-11.png"
+      "figure": "assets/images/fig-11.png",
+      "part": "part3"
     },
     {
       "id": "ch12",
       "title": "等宽、手写、装饰与实验字体",
       "source": "chapters/12.md",
       "slug": "chapter-12",
-      "figure": "assets/images/fig-12.png"
+      "figure": "assets/images/fig-12.png",
+      "part": "part3"
     },
     {
       "id": "ch13",
       "title": "中日韩字形、多文字系统与混排",
       "source": "chapters/13.md",
       "slug": "chapter-13",
-      "figure": "assets/images/fig-13.png"
+      "figure": "assets/images/fig-13.png",
+      "part": "part3"
     },
     {
       "id": "ch14",
       "title": "骨架、笔画与轮廓",
       "source": "chapters/14.md",
       "slug": "chapter-14",
-      "figure": "assets/images/fig-14.png"
+      "figure": "assets/images/fig-14.png",
+      "part": "part4"
     },
     {
       "id": "ch15",
       "title": "字面、中宫、重心与视觉大小",
       "source": "chapters/15.md",
       "slug": "chapter-15",
-      "figure": "assets/images/fig-15.png"
+      "figure": "assets/images/fig-15.png",
+      "part": "part4"
     },
     {
       "id": "ch16",
       "title": "曲线、转角和视觉修正",
       "source": "chapters/16.md",
       "slug": "chapter-16",
-      "figure": "assets/images/fig-16.png"
+      "figure": "assets/images/fig-16.png",
+      "part": "part4"
     },
     {
       "id": "ch17",
       "title": "字距、字偶间距与连续阅读节奏",
       "source": "chapters/17.md",
       "slug": "chapter-17",
-      "figure": "assets/images/fig-17.png"
+      "figure": "assets/images/fig-17.png",
+      "part": "part4"
     },
     {
       "id": "ch18",
       "title": "从几个字到一套字",
       "source": "chapters/18.md",
       "slug": "chapter-18",
-      "figure": "assets/images/fig-18.png"
+      "figure": "assets/images/fig-18.png",
+      "part": "part4"
     },
     {
       "id": "ch19",
       "title": "根据内容、媒介和阅读距离选字",
       "source": "chapters/19.md",
       "slug": "chapter-19",
-      "figure": "assets/images/fig-19.png"
+      "figure": "assets/images/fig-19.png",
+      "part": "part5"
     },
     {
       "id": "ch20",
       "title": "中文与西文字体怎样搭配",
       "source": "chapters/20.md",
       "slug": "chapter-20",
-      "figure": "assets/images/fig-20.png"
+      "figure": "assets/images/fig-20.png",
+      "part": "part5"
     },
     {
       "id": "ch21",
       "title": "字号、行距、行长与段落",
       "source": "chapters/21.md",
       "slug": "chapter-21",
-      "figure": "assets/images/fig-21.png"
+      "figure": "assets/images/fig-21.png",
+      "part": "part5"
     },
     {
       "id": "ch22",
       "title": "标题、正文、注释和信息层级",
       "source": "chapters/22.md",
       "slug": "chapter-22",
-      "figure": "assets/images/fig-22.png"
+      "figure": "assets/images/fig-22.png",
+      "part": "part5"
     },
     {
       "id": "ch23",
       "title": "书籍、海报、包装与屏幕界面的排版",
       "source": "chapters/23.md",
       "slug": "chapter-23",
-      "figure": "assets/images/fig-23.png"
+      "figure": "assets/images/fig-23.png",
+      "part": "part5"
     },
     {
       "id": "ch24",
       "title": "品牌字体与定制字体",
       "source": "chapters/24.md",
       "slug": "chapter-24",
-      "figure": "assets/images/fig-24.png"
+      "figure": "assets/images/fig-24.png",
+      "part": "part6"
     },
     {
       "id": "ch25",
       "title": "标志字、招牌与环境导视",
       "source": "chapters/25.md",
       "slug": "chapter-25",
-      "figure": "assets/images/fig-25.png"
+      "figure": "assets/images/fig-25.png",
+      "part": "part6"
     },
     {
       "id": "ch26",
       "title": "当代品牌、出版物与数字产品案例",
       "source": "chapters/26.md",
       "slug": "chapter-26",
-      "figure": "assets/images/fig-26.png"
+      "figure": "assets/images/fig-26.png",
+      "part": "part6"
     },
     {
       "id": "ch27",
       "title": "设计一组标题字",
       "source": "chapters/27.md",
       "slug": "chapter-27",
-      "figure": "assets/images/fig-27.png"
+      "figure": "assets/images/fig-27.png",
+      "part": "part7"
     },
     {
       "id": "ch28",
       "title": "从草图、矢量轮廓到测试与修订",
       "source": "chapters/28.md",
       "slug": "chapter-28",
-      "figure": "assets/images/fig-28.png"
+      "figure": "assets/images/fig-28.png",
+      "part": "part7"
     },
     {
       "id": "ch29",
       "title": "制作一张字体样张与一个应用页面",
       "source": "chapters/29.md",
       "slug": "chapter-29",
-      "figure": "assets/images/fig-29.png"
+      "figure": "assets/images/fig-29.png",
+      "part": "part7"
     },
     {
       "id": "ch30",
       "title": "数字字体入门",
       "source": "chapters/30.md",
       "slug": "chapter-30",
-      "figure": "assets/images/fig-30.png"
+      "figure": "assets/images/fig-30.png",
+      "part": "part7"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part1",
+      "title": "第一篇：先学会看字",
+      "chapters": [
+        "ch01",
+        "ch02",
+        "ch03"
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "第二篇：字是怎样走到今天的",
+      "chapters": [
+        "ch04",
+        "ch05",
+        "ch06"
+      ]
+    },
+    {
+      "id": "part3",
+      "title": "第三篇：字体风格图鉴",
+      "chapters": [
+        "ch07",
+        "ch08",
+        "ch09",
+        "ch10",
+        "ch11",
+        "ch12",
+        "ch13"
+      ]
+    },
+    {
+      "id": "part4",
+      "title": "第四篇：字形是怎样设计出来的",
+      "chapters": [
+        "ch14",
+        "ch15",
+        "ch16",
+        "ch17",
+        "ch18"
+      ]
+    },
+    {
+      "id": "part5",
+      "title": "第五篇：怎样用好字体",
+      "chapters": [
+        "ch19",
+        "ch20",
+        "ch21",
+        "ch22",
+        "ch23"
+      ]
+    },
+    {
+      "id": "part6",
+      "title": "第六篇：字体在真实世界里",
+      "chapters": [
+        "ch24",
+        "ch25",
+        "ch26"
+      ]
+    },
+    {
+      "id": "part7",
+      "title": "第七篇：亲手做一次",
+      "chapters": [
+        "ch27",
+        "ch28",
+        "ch29",
+        "ch30"
+      ]
     }
   ]
 }

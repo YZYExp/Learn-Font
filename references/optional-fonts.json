@@ -1,0 +1,47 @@
+[
+  {
+    "file": "NimbusRoman-Regular.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/NimbusRoman-Regular.otf",
+    "sha256_used": "fd41669443616a7ae890c42e53a58f47fa24a940fd1e367acaff665cf5b6e9d8"
+  },
+  {
+    "file": "P052-Roman.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/P052-Roman.otf",
+    "sha256_used": "f054a7389d8d0e9f4c5f7b4c21feb7e2b14bec8004a1e92778a78d149524eea9"
+  },
+  {
+    "file": "C059-Roman.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/C059-Roman.otf",
+    "sha256_used": "e00cc7b88f0cf25ae43f0e48de39d0043fe042b55719a3ac32669ab3369542ec"
+  },
+  {
+    "file": "NimbusSans-Regular.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/NimbusSans-Regular.otf",
+    "sha256_used": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08"
+  },
+  {
+    "file": "URWGothic-Book.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/URWGothic-Book.otf",
+    "sha256_used": "04318316cee29950805110c9c8949eea189ef5575132881f4d4d7e03e5299903"
+  },
+  {
+    "file": "NimbusSansNarrow-Regular.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/NimbusSansNarrow-Regular.otf",
+    "sha256_used": "0111cf7c05377c4f1685d37bfa8b3edd2033278122f69e0a9803a8514e352b99"
+  },
+  {
+    "file": "Z003-MediumItalic.otf",
+    "source": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/fonts/Z003-MediumItalic.otf",
+    "sha256_used": "a04947e59fc9339ea3c4b34c31fd46764f22af7512afc2c074ce190e79ed7a09"
+  },
+  {
+    "file": "FandolKai-Regular.otf",
+    "source": "https://mirrors.ctan.org/fonts/fandol/FandolKai-Regular.otf",
+    "sha256_used": "ea7e7fb4f9b3ac694a68d43946e04d21deed6e8c29a7c2d3081e1a4138f2f827"
+  },
+  {
+    "file": "FandolFang-Regular.otf",
+    "source": "https://mirrors.ctan.org/fonts/fandol/FandolFang-Regular.otf",
+    "sha256_used": "d838ad32ce2244d8144f408c37fe71065aba6fbbc80759a4d2aa2033948d5bc9"
+  }
+]

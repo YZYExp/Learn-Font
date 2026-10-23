@@ -6,7 +6,7 @@ import markdown
 ROOT=Path(__file__).resolve().parents[1]
 BOOK=json.loads((ROOT/'book.json').read_text())
 OUT=ROOT/'build';OUT.mkdir(exist_ok=True)
-CSS='''body{font-family:serif;line-height:1.8;margin:5%;color:#192c30}h1,h2,h3{line-height:1.4;break-after:avoid}h1{font-size:1.7em;margin-top:1.3em}h2{font-size:1.25em;margin-top:1.7em;color:#207b78}p{margin:.85em 0;text-align:justify}img{display:block;max-width:100%;height:auto;margin:1.3em auto}a{color:#207b78;overflow-wrap:anywhere}table{border-collapse:collapse;font-size:.85em;width:100%}td,th{border:1px solid #cfd5d0;padding:.4em;text-align:left}pre,code{font-family:monospace;white-space:pre-wrap;overflow-wrap:anywhere}blockquote{margin:1em 0;padding:.5em 1em;border-left:3px solid #207b78}li{margin:.4em 0}.cover{margin:0;padding:0}.cover img{max-height:95vh;margin:0 auto}.caption{color:#607174;font-size:.85em}'''
+CSS='''body{font-family:serif;line-height:1.8;margin:5%;color:#192c30}h1,h2,h3{line-height:1.4;break-after:avoid}h1{font-size:1.7em;margin-top:1.3em}h2{font-size:1.25em;margin-top:1.7em;color:#207b78}p{margin:.85em 0;text-align:justify}img{display:block;max-width:100%;height:auto;margin:1.3em auto;break-inside:avoid;page-break-inside:avoid}a{color:#207b78;overflow-wrap:anywhere}table{border-collapse:collapse;font-size:.85em;width:100%}td,th{border:1px solid #cfd5d0;padding:.4em;text-align:left}pre,code{font-family:monospace;white-space:pre-wrap;overflow-wrap:anywhere}blockquote{margin:1em 0;padding:.5em 1em;border-left:3px solid #207b78}li{margin:.4em 0}.cover{margin:0;padding:0}.cover img{max-height:95vh;margin:0 auto}.caption{color:#607174;font-size:.85em}'''
 def esc(s):return html.escape(s,quote=True)
 def xhtml(title,body):
  return '<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="zh-CN" xml:lang="zh-CN"><head><title>'+esc(title)+'</title><link rel="stylesheet" type="text/css" href="style.css" /></head><body>'+body+'</body></html>'
@@ -22,13 +22,21 @@ def run():
   for other in BOOK['chapters']:
    s=s.replace(f"({Path(other['source']).name})",f"({other['id']}.xhtml)")
   body=markdown.markdown(s,extensions=['tables','fenced_code'])
-  docs.append((c['id'],c['title'],xhtml(c['title'],body)))
+  docs.append((c['id'],'第'+str(int(c['id'][2:]))+'章 '+c['title'],xhtml(c['title'],body)))
  for p in sorted((ROOT/'appendices').glob('*.md')):
   if p==intro:continue
   s=p.read_text().replace('../assets/','assets/')
   docs.append(('app-'+p.stem,p.read_text().splitlines()[0].lstrip('# '),xhtml(p.stem,markdown.markdown(s,extensions=['tables','fenced_code']))))
  for id,t,s in docs:ET.fromstring(s)
- nav='<nav epub:type="toc" id="toc"><h1>目录</h1><ol>'+''.join(f'<li><a href="{id}.xhtml">{esc(t)}</a></li>' for id,t,s in docs)+'</ol></nav>'
+ nav='<nav epub:type="toc" id="toc"><h1>目录</h1><ol><li><a href="guide.xhtml">阅读导引</a></li>'
+ lookup={id:t for id,t,s in docs}
+ for part in BOOK['parts']:
+  nav+='<li><span>'+esc(part['title'])+'</span><ol>'
+  nav+=''.join(f'<li><a href="{id}.xhtml">{esc(lookup[id])}</a></li>' for id in part['chapters'])
+  nav+='</ol></li>'
+ for id,t,s in docs:
+  if id.startswith('app-'):nav+=f'<li><a href="{id}.xhtml">{esc(t)}</a></li>'
+ nav+='</ol></nav>'
  assets=list((ROOT/'assets/images').glob('*.png'))
  manifest=['<item id="css" href="style.css" media-type="text/css"/>','<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>','<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>']
  for id,t,s in docs:manifest.append(f'<item id="{id}" href="{id}.xhtml" media-type="application/xhtml+xml"/>')

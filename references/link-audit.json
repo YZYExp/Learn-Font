@@ -1,0 +1,214 @@
+{
+  "checked": "2026-10-22",
+  "note": "HTTP reachability is separate from source authority or factual validation. Access restrictions may be transient.",
+  "results": [
+    {
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1044542/inclusive-mobility-a-guide-to-best-practice-on-access-to-pedestrian-and-transport-infrastructure.pdf",
+      "status": 200
+    },
+    {
+      "url": "https://blog.adobe.com/en/publish/2014/07/15/introducing-source-han-sans-an-open-source-pan-cjk-typeface",
+      "status": 200
+    },
+    {
+      "url": "https://blog.adobe.com/en/publish/2021/04/08/source-han-sans-goes-variable",
+      "status": 200
+    },
+    {
+      "url": "https://blog.mozilla.org/en/mozilla/mozilla-brand-next-era-of-tech/",
+      "status": 200
+    },
+    {
+      "url": "https://ctan.org/pkg/fandol",
+      "status": 200
+    },
+    {
+      "url": "https://dejavu-fonts.github.io/",
+      "status": 200
+    },
+    {
+      "url": "https://design-system.service.gov.uk/styles/headings/",
+      "status": 200
+    },
+    {
+      "url": "https://design-system.service.gov.uk/styles/type-scale/",
+      "status": 200
+    },
+    {
+      "url": "https://design.google/library/choosing-web-fonts-beginners-guide",
+      "status": 200
+    },
+    {
+      "url": "https://design.theguardian.com/",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/glossary.html",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/techref/bezier.html",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/techref/stroke.html",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/tutorial.html",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/tutorial/editexample.html",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/tutorial/editexample5.html",
+      "status": 200
+    },
+    {
+      "url": "https://fontforge.org/docs/ui/mainviews/charview.html",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ArtifexSoftware/urw-base35-fonts",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/IBM/plex",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/adobe-fonts/source-han-sans",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/notofonts/noto-cjk",
+      "status": 200
+    },
+    {
+      "url": "https://glyphsapp.com/learn/drawing-good-paths",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/base",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/cmap",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/gpos",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/gsub",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/hmtx",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/otff",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview",
+      "status": 200
+    },
+    {
+      "url": "https://openfontlicense.org/",
+      "status": 200
+    },
+    {
+      "url": "https://otc-cta.gc.ca/eng/publication/removing-communication-barriers-travellers-with-disabilities-code-practice",
+      "status": 503
+    },
+    {
+      "url": "https://protocol.mozilla.org/docs/fundamentals/typography",
+      "status": 200
+    },
+    {
+      "url": "https://www.ibm.com/design/impact/plex/",
+      "status": 200
+    },
+    {
+      "url": "https://www.monotype.com/resources/duolingo-custom-font-inspired-their-owl-mascot-duo",
+      "status": 200
+    },
+    {
+      "url": "https://www.unicode.org/faq/han_cjk.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.w3.org/TR/clreq/",
+      "status": 200
+    },
+    {
+      "url": "https://www.w3.org/TR/typography/",
+      "status": 200
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing",
+      "status": 200
+    },
+    {
+      "url": "https://blogs.loc.gov/international-collections/2021/06/the-history-of-printing-in-asia-according-to-library-of-congress-asian-collections-part-1/",
+      "status": 200
+    },
+    {
+      "url": "https://computerhistory.org/blog/postscript-a-digital-printing-press/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/adobe-fonts/source-han-serif",
+      "status": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/typography/truetype/hinting",
+      "status": 200
+    },
+    {
+      "url": "https://www.adobe.com/products/type/fonts-by-adobe.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.americanhistory.si.edu/de/collections/object/nmah_808196",
+      "status": 200
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2012/printed-image-in-china",
+      "status": 200
+    },
+    {
+      "url": "https://www.monotype.com/resources/guide-type-styles",
+      "status": 200
+    },
+    {
+      "url": "https://www.morisawa.co.jp/fonts/specimen/1075",
+      "status": 200
+    },
+    {
+      "url": "https://www.vam.ac.uk/articles/william-morris-text",
+      "status": 200
+    }
+  ]
+}

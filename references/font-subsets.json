@@ -1,0 +1,38 @@
+[
+  {
+    "file": "NotoSerifCJKsc-Regular.otf",
+    "original_sha256": "2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca",
+    "original_names": {
+      "1": "Noto Serif CJK SC",
+      "2": "Regular",
+      "4": "Noto Serif CJK SC",
+      "5": "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0",
+      "6": "NotoSerifCJKsc-Regular"
+    },
+    "subset_family": "BookSpecimenSerifSC"
+  },
+  {
+    "file": "NotoSerifCJKtc-Regular.otf",
+    "original_sha256": "234301038e76e7c35c43113785024700c4e4fe7bdce1d1fbbc42fca7e6683798",
+    "original_names": {
+      "1": "Noto Serif CJK TC",
+      "2": "Regular",
+      "4": "Noto Serif CJK TC",
+      "5": "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0",
+      "6": "NotoSerifCJKtc-Regular"
+    },
+    "subset_family": "BookSpecimenSerifTC"
+  },
+  {
+    "file": "NotoSerifCJKjp-Regular.otf",
+    "original_sha256": "d9854c7a8ef170b5a7932558856fd64eb8de0b007cd823fed6f9f514ad2803d3",
+    "original_names": {
+      "1": "Noto Serif CJK JP",
+      "2": "Regular",
+      "4": "Noto Serif CJK JP",
+      "5": "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0",
+      "6": "NotoSerifCJKjp-Regular"
+    },
+    "subset_family": "BookSpecimenSerifJP"
+  }
+]

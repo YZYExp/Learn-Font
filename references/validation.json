@@ -1,0 +1,19 @@
+{
+  "edition_date": "2026-10-22",
+  "chapters": 30,
+  "han_characters_in_chapters": 38244,
+  "chapter_images": 35,
+  "cover_images": 1,
+  "epub_sections": 34,
+  "epub_images": 36,
+  "source_urls_in_chapters": 52,
+  "checks": [
+    "All chapter files present with substantive text, sources and real embedded figures",
+    "All local Markdown image paths exist and all image files decode",
+    "All packaged EPUB XML parses; every packaged image and local link resolves",
+    "Key fonts and figures visually reviewed; variable font axes explicitly selected",
+    "All PNG files byte-identical after Noto Serif teaching-subset optimization",
+    "Cross-review completed for all chapter groups and key figures"
+  ],
+  "external_link_note": "51 source links returned HTTP 200 during this run; one Canadian Transportation Agency link returned HTTP 503. See link-audit.json. HTTP reachability is separate from source authority and factual review."
+}

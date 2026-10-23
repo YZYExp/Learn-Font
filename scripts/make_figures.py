@@ -179,23 +179,24 @@ def main():
    wrap(d,(560,yy+8),'示例用于分辨字标与通用字体。本图不复制或代表任何真实品牌。',390,34)
    wrap(d,(92,1130),'品牌字体需要面对整套语言、信息层级、屏幕与印刷条件，不只解决一个大标题。',930,31)
   elif n==25:
-   yy=panel(d,246,'A  近看：方向与目的地',430);specimen(d,'阅览室 →',yy,'cn',148)
+   yy=panel(d,246,'A  近看：方向与目的地',430);specimen(d,'阅览室 →',yy,'cn',138,width=850)
    text(d,(100,yy+210),'READING ROOM   /   2F',35,'sans',MUTED)
    yy=panel(d,716,'B  缩小模拟：先检验什么信息还剩下',450)
    specimen(d,'阅览室 →',yy+30,'cn',68)
    text(d,(100,yy+148),'READING ROOM   /   2F',18,'sans',MUTED)
    wrap(d,(98,yy+240),'缩小不能代替真实距离和环境测试；它能先暴露层级不足。',900,31)
   elif n==26:
-   mfiles=list(F.glob('Mozilla*.ttf'))+list(F.glob('Mozilla*.otf'))
-   yy=panel(d,246,'A  真实品牌字体样张 / 见本章官方来源',390)
-   if mfiles:
-    mf=ImageFont.truetype(str(mfiles[0]),88);d.text((98,yy),'Mozilla / Open web',font=mf,fill=INK,anchor='lt')
-    text(d,(98,yy+145),mfiles[0].stem[:43],26,'sans',MUTED)
-   else:
-    specimen(d,'Aa / Brand voice',yy,'sans',102);text(d,(98,yy+145),'原创练习，非任何品牌的官方字样',29,'cn',MUTED)
-   yy=panel(d,676,'B  将观察转成练习：同内容，不同语气',470)
-   specimen(d,'Open for everyone',yy,'serif',85);specimen(d,'Open for everyone',yy+145,'bold',85)
-   text(d,(98,yy+290),'B 使用 DejaVu，非 Mozilla 或 IBM 官方排版。',27,'cn',MUTED)
+   samples=[('MozillaText[wght].ttf','A  Mozilla Text / wght=400'),('MozillaHeadline[wdth,wght].ttf','B  Mozilla Headline / wght=400, wdth=100'),('IBMPlexSans-Regular.ttf','C  IBM Plex Sans Regular')]
+   for i,(filename,label) in enumerate(samples):
+    yy=panel(d,246+i*350,label,310)
+    mf=ImageFont.truetype(str(F/filename),80)
+    from fontTools.ttLib import TTFont
+    tf=TTFont(F/filename)
+    if 'fvar' in tf:
+     mf.set_variation_by_axes([400 if ax.axisTag=='wght' else 100 if ax.axisTag=='wdth' else ax.defaultValue for ax in tf['fvar'].axes])
+    d.text((98,yy),'Open for everyone',font=mf,fill=INK,anchor='lt')
+    text(d,(98,yy+130),'真实字体样张；本书排印，非品牌官方版式或字标。',26,'cn',MUTED)
+   text(d,(92,1325),'字体来源与OFL许可见第26章及工程素材记录。',27,'cn',MUTED)
   elif n==27:
    for i,(label,thick,inside) in enumerate([('A  原创练习：日字骨架',4,0),('B  为骨架增加等宽笔画',28,0),('C  调整内部横画与留白，再测试',28,7)]):
     yy=panel(d,246+i*350,label,310)
@@ -218,7 +219,12 @@ def main():
    text(d,(98,yy+130),'平滑节点只是工具状态，不自动保证轮廓好看。',30)
   elif n==30:
    for i,(s,l,desc) in enumerate([('U+0041','A  字符：抽象文字单位的编码','例如拉丁大写 A；字符不等于某一种外形。'),('A A A','B  字形：字体内的具体视觉形态','同一字符可以对应不同字形与替代形式。'),('OTF / TTF','C  字体文件：轮廓、映射与排版信息','扩展名不能单独判断质量或使用授权。')]):
-    yy=panel(d,246+i*350,l,310);specimen(d,s,yy,'serif' if i==1 else 'mono',96);text(d,(98,yy+135),desc,26,'cn',MUTED)
+    yy=panel(d,246+i*350,l,310)
+    if i==1:
+     for x,key,label in [(100,'serif','DejaVu Serif'),(415,'sans','DejaVu Sans'),(730,'mono','DejaVu Sans Mono')]:
+      text(d,(x,yy),'A',95,key);text(d,(x,yy+103),label,19,'sans',TEAL)
+    else:specimen(d,s,yy,'mono',96)
+    text(d,(98,yy+155),desc,26,'cn',MUTED)
   save(im,n)
  # Cover: exact typography, no synthetic glyphs.
  im=Image.new('RGB',(1200,1800),INK);d=ImageDraw.Draw(im)
