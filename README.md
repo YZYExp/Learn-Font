@@ -2,7 +2,7 @@
 
 字体、字形设计与文字排版图解。面向有兴趣的非专业读者，沿着“看见差异 → 理解来历 → 拆解结构 → 学会选择与组合 → 亲手设计”阅读。
 
-中文Markdown是唯一主稿。所有图片使用相对路径，目录与后续阅读站导航以`book.json`为准。网站源码位置预留为`site/`，当前不生成或部署网站。
+中文Markdown是唯一主稿。所有图片使用相对路径，目录与后续阅读站导航以`book.json`为准。阅读站源码位于`site/`，从同一份章节清单生成完整目录与导航。
 
 ## 阅读顺序
 
@@ -100,4 +100,28 @@ python scripts/build_epub.py
 git clone history.bundle font-atlas-restored
 ```
 
-尚未指定本书远端仓库，本版没有执行远端推送或部署。
+远端仓库：[YZYExp/Learn-Font](https://github.com/YZYExp/Learn-Font)。
+
+## 在线阅读与发布
+
+阅读站：[字的性格](https://yzyexp.github.io/Learn-Font/)。源码与阅读站共享同一份Markdown、图片与章节清单。
+
+```bash
+python -m pip install -r requirements-site.txt
+python scripts/build_site.py --base-path /Learn-Font/ --output build/site --epub downloads/font-atlas.epub
+python scripts/check_site.py --base-path /Learn-Font/ --output build/site
+```
+
+`pages.yml`只安装Markdown，完成网页和内部链接校验后部署；`export.yml`独立导出EPUB并保存30天Actions产物。两个流程互不依赖，PR只验证而不发布。
+
+已核验的首版EPUB快照位于`downloads/font-atlas.epub`。`edition.json`记录内容摘要及文件摘要；当正文或图片更新而快照未更新时，网页自动改为导出入口，避免把旧包标为当前版本。Actions产物下载需要GitHub登录，并受30天保留期限制。
+
+更新离线快照时，重新导出并验证EPUB，再更新摘要：
+
+```bash
+python scripts/build_epub.py
+python -c "from pathlib import Path; import shutil; shutil.copy2(next(Path('build').glob('*.epub')), 'downloads/font-atlas.epub')"
+python scripts/update_edition.py
+```
+
+Pages设置使用GitHub Actions作为发布来源。
