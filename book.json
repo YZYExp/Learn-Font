@@ -1,0 +1,218 @@
+{
+  "title": "字的性格",
+  "subtitle": "字体、字形设计与文字排版图解",
+  "language": "zh-CN",
+  "cover": "assets/images/cover.png",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "字为什么有不同的性格",
+      "source": "chapters/01.md",
+      "slug": "chapter-01",
+      "figure": "assets/images/fig-01.png"
+    },
+    {
+      "id": "ch02",
+      "title": "字体、字形、书法、手写字与标志字",
+      "source": "chapters/02.md",
+      "slug": "chapter-02",
+      "figure": "assets/images/fig-02.png"
+    },
+    {
+      "id": "ch03",
+      "title": "观察字的工具",
+      "source": "chapters/03.md",
+      "slug": "chapter-03",
+      "figure": "assets/images/fig-03.png"
+    },
+    {
+      "id": "ch04",
+      "title": "汉字书写、刻印与印刷字的演变",
+      "source": "chapters/04.md",
+      "slug": "chapter-04",
+      "figure": "assets/images/fig-04.png"
+    },
+    {
+      "id": "ch05",
+      "title": "拉丁字母与印刷字体的发展",
+      "source": "chapters/05.md",
+      "slug": "chapter-05",
+      "figure": "assets/images/fig-05.png"
+    },
+    {
+      "id": "ch06",
+      "title": "从金属活字到数字屏幕",
+      "source": "chapters/06.md",
+      "slug": "chapter-06",
+      "figure": "assets/images/fig-06.png"
+    },
+    {
+      "id": "ch07",
+      "title": "宋体与明朝体",
+      "source": "chapters/07.md",
+      "slug": "chapter-07",
+      "figure": "assets/images/fig-07.png"
+    },
+    {
+      "id": "ch08",
+      "title": "黑体及其不同面貌",
+      "source": "chapters/08.md",
+      "slug": "chapter-08",
+      "figure": "assets/images/fig-08.png"
+    },
+    {
+      "id": "ch09",
+      "title": "楷体、仿宋与书写风格",
+      "source": "chapters/09.md",
+      "slug": "chapter-09",
+      "figure": "assets/images/fig-09.png"
+    },
+    {
+      "id": "ch10",
+      "title": "拉丁衬线体",
+      "source": "chapters/10.md",
+      "slug": "chapter-10",
+      "figure": "assets/images/fig-10.png"
+    },
+    {
+      "id": "ch11",
+      "title": "拉丁无衬线体",
+      "source": "chapters/11.md",
+      "slug": "chapter-11",
+      "figure": "assets/images/fig-11.png"
+    },
+    {
+      "id": "ch12",
+      "title": "等宽、手写、装饰与实验字体",
+      "source": "chapters/12.md",
+      "slug": "chapter-12",
+      "figure": "assets/images/fig-12.png"
+    },
+    {
+      "id": "ch13",
+      "title": "中日韩字形、多文字系统与混排",
+      "source": "chapters/13.md",
+      "slug": "chapter-13",
+      "figure": "assets/images/fig-13.png"
+    },
+    {
+      "id": "ch14",
+      "title": "骨架、笔画与轮廓",
+      "source": "chapters/14.md",
+      "slug": "chapter-14",
+      "figure": "assets/images/fig-14.png"
+    },
+    {
+      "id": "ch15",
+      "title": "字面、中宫、重心与视觉大小",
+      "source": "chapters/15.md",
+      "slug": "chapter-15",
+      "figure": "assets/images/fig-15.png"
+    },
+    {
+      "id": "ch16",
+      "title": "曲线、转角和视觉修正",
+      "source": "chapters/16.md",
+      "slug": "chapter-16",
+      "figure": "assets/images/fig-16.png"
+    },
+    {
+      "id": "ch17",
+      "title": "字距、字偶间距与连续阅读节奏",
+      "source": "chapters/17.md",
+      "slug": "chapter-17",
+      "figure": "assets/images/fig-17.png"
+    },
+    {
+      "id": "ch18",
+      "title": "从几个字到一套字",
+      "source": "chapters/18.md",
+      "slug": "chapter-18",
+      "figure": "assets/images/fig-18.png"
+    },
+    {
+      "id": "ch19",
+      "title": "根据内容、媒介和阅读距离选字",
+      "source": "chapters/19.md",
+      "slug": "chapter-19",
+      "figure": "assets/images/fig-19.png"
+    },
+    {
+      "id": "ch20",
+      "title": "中文与西文字体怎样搭配",
+      "source": "chapters/20.md",
+      "slug": "chapter-20",
+      "figure": "assets/images/fig-20.png"
+    },
+    {
+      "id": "ch21",
+      "title": "字号、行距、行长与段落",
+      "source": "chapters/21.md",
+      "slug": "chapter-21",
+      "figure": "assets/images/fig-21.png"
+    },
+    {
+      "id": "ch22",
+      "title": "标题、正文、注释和信息层级",
+      "source": "chapters/22.md",
+      "slug": "chapter-22",
+      "figure": "assets/images/fig-22.png"
+    },
+    {
+      "id": "ch23",
+      "title": "书籍、海报、包装与屏幕界面的排版",
+      "source": "chapters/23.md",
+      "slug": "chapter-23",
+      "figure": "assets/images/fig-23.png"
+    },
+    {
+      "id": "ch24",
+      "title": "品牌字体与定制字体",
+      "source": "chapters/24.md",
+      "slug": "chapter-24",
+      "figure": "assets/images/fig-24.png"
+    },
+    {
+      "id": "ch25",
+      "title": "标志字、招牌与环境导视",
+      "source": "chapters/25.md",
+      "slug": "chapter-25",
+      "figure": "assets/images/fig-25.png"
+    },
+    {
+      "id": "ch26",
+      "title": "当代品牌、出版物与数字产品案例",
+      "source": "chapters/26.md",
+      "slug": "chapter-26",
+      "figure": "assets/images/fig-26.png"
+    },
+    {
+      "id": "ch27",
+      "title": "设计一组标题字",
+      "source": "chapters/27.md",
+      "slug": "chapter-27",
+      "figure": "assets/images/fig-27.png"
+    },
+    {
+      "id": "ch28",
+      "title": "从草图、矢量轮廓到测试与修订",
+      "source": "chapters/28.md",
+      "slug": "chapter-28",
+      "figure": "assets/images/fig-28.png"
+    },
+    {
+      "id": "ch29",
+      "title": "制作一张字体样张与一个应用页面",
+      "source": "chapters/29.md",
+      "slug": "chapter-29",
+      "figure": "assets/images/fig-29.png"
+    },
+    {
+      "id": "ch30",
+      "title": "数字字体入门",
+      "source": "chapters/30.md",
+      "slug": "chapter-30",
+      "figure": "assets/images/fig-30.png"
+    }
+  ]
+}
