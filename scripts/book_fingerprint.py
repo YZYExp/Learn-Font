@@ -4,7 +4,7 @@ import hashlib
 ROOT=Path(__file__).resolve().parents[1]
 def fingerprint():
  paths=[ROOT/'book.json']
- for name,pattern in [('chapters','*.md'),('appendices','*.md'),('assets/images','*.png'),('assets/designs','*')]:
+ for name,pattern in [('chapters','*.md'),('appendices','*.md'),('references','*.md'),('assets/images','*.png'),('assets/designs','*')]:
   paths.extend(p for p in (ROOT/name).rglob(pattern) if p.is_file())
  h=hashlib.sha256()
  for p in sorted(paths):
