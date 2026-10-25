@@ -7,3 +7,7 @@ assets/fonts/P052-Roman.otf
 assets/fonts/C059-Roman.otf
 assets/fonts/URWGothic-Book.otf
 assets/fonts/Z003-MediumItalic.otf
+
+# Optional second-edition source fonts, SHA-pinned in expansion-fonts.json.
+assets/fonts/MPLUSRounded1c-Regular.ttf
+assets/fonts/SourceSerif4Variable-Roman.otf

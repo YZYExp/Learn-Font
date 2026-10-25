@@ -1,6 +1,6 @@
 # 字的性格
 
-字体、字形设计与文字排版图解。面向有兴趣的非专业读者，沿着“看见差异 → 理解来历 → 拆解结构 → 学会选择与组合 → 亲手设计”阅读。
+字体、字形设计与文字排版图解。扩充版含八篇四十章。面向有兴趣的非专业读者，沿着“看见差异 → 理解来历 → 拆解结构 → 学会选择与组合 → 亲手设计”阅读。
 
 中文Markdown是唯一主稿。所有图片使用相对路径，目录与后续阅读站导航以`book.json`为准。阅读站源码位于`site/`，从同一份章节清单生成完整目录与导航。
 
@@ -58,6 +58,19 @@
 - [28. 从草图、矢量轮廓到测试与修订](chapters/28.md)
 - [29. 制作一张字体样张与一个应用页面](chapters/29.md)
 - [30. 数字字体入门](chapters/30.md)
+
+### 第八篇：从细节到完整作品
+
+- [31. 中文结构与部件适配](chapters/31.md)
+- [32. 扩展字体图鉴：圆、窄、板状衬线与模板字](chapters/32.md)
+- [33. 中文精细排版：标点、换行与竖排](chapters/33.md)
+- [34. 数字与符号：文字系统里容易忽略的一半](chapters/34.md)
+- [35. 连续书页：把清风读书会做成一本小册](chapters/35.md)
+- [36. 海报：从平均用力到清楚邀请](chapters/36.md)
+- [37. 包装：文字必须跟着折线回到立体](chapters/37.md)
+- [38. 手机报名页：文字要在变化中继续工作](chapters/38.md)
+- [39. 做一个能输入的七字母练习字体](chapters/39.md)
+- [40. 可变字体与屏幕上的真实阅读](chapters/40.md)
 
 ## 附录与素材
 
@@ -125,3 +138,12 @@ python scripts/update_edition.py
 ```
 
 Pages设置使用GitHub Actions作为发布来源。
+
+
+## 扩充版实践资源
+
+- 第31–34章：中文结构、扩展图鉴、中文精排、数字符号的真实字体对照。
+- 第35–38章：同一虚构读书活动的书册、海报、包装与手机界面，保留初稿、修订和验收依据。
+- 第39章：原创七字母练习字体 `assets/designs/practice-font-Regular.ttf`，可编辑源 `practice-font-grid.json`。重建：`python scripts/build_practice_font.py`。
+- 第40章：可变轴、光学字号、回退与屏幕阅读。阅读站提供[字体实验台](https://yzyexp.github.io/Learn-Font/type-lab/)，随扩充版合并后发布。
+- 新增图稿重建：`python scripts/make_expansion_figures.py --fetch-assets`。该命令下载缺失的新增字体并核对摘要；其字体来源、摘要和历史图片许可见 `references/expansion-fonts.json`、`references/expansion-image-sources.json` 与图片说明；已有PNG直接用于阅读和导出，不要求网页安装绘图依赖。

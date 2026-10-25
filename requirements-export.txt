@@ -1,1 +1,2 @@
 Markdown==3.11.2
+Pillow>=10,<13

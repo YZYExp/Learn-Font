@@ -1,0 +1,22 @@
+{
+  "edition": "2026-10-25-expansion",
+  "chapters": 40,
+  "han_characters": 55424,
+  "body_figures": 56,
+  "added_body_figures": 21,
+  "checks": {
+    "canonical_manifest_and_body_images": "pass",
+    "packaged_xml_links_and_image_decoding": "pass",
+    "epub_attachment_fallback_and_xhtml_routes": "pass",
+    "practice_font_cmap_metrics_contours_and_repeatable_build": "pass",
+    "site_markdown_only_clean_environment": "pass",
+    "site_subpaths_and_downloads": "pass",
+    "stale_snapshot_export_fallback": "pass",
+    "javascript_syntax": "pass",
+    "image_visual_review": "pass"
+  },
+  "limitations": [
+    "No browser interaction automation: browser executable unavailable and browser installation download failed. JavaScript syntax, local resources, controlled font instances and image output were checked."
+  ],
+  "epub_sha256": "c11dd887cc3f4f432b67d284203434f6e8fda889efe666f37c67f8e86a978a97"
+}

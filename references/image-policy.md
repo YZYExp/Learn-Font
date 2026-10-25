@@ -30,3 +30,18 @@
 工程中的Noto Serif教学字体只保留本版样张和文字需要的字符，内部家族名改为`BookSpecimen…`，以免与完整字体混淆。图片面板标的是原始字形设计来源。子集没有重新设计字形；它也不适合安装后当作通用字库。Noto Sans SC保留原文件；三款宋体原始文件的名称、版本和摘要保存在`font-subsets.json`。
 
 工程内已保留成品图片，重建EPUB不需要安装字体或联网。只有重新绘图时才需要额外字体，运行`python scripts/fetch_fonts.py`后再运行两个绘图脚本。后续加入新文字时，要先检查子集覆盖；必要时从官方项目取得完整字体，再用可选脚本重新制作教学子集。
+
+
+## 扩充版新增图稿与实践附件
+
+第31–40章共新增21张正文教学图（主图及补图），分别演示结构、风格、中文精排、数字特性、四媒介案例、实际小字库与可变轴。图35包含单页初稿、修订以及后续两页；图38分别展开正常、错误和大字状态。全部通过真实字体排印或可校验结构绘制，不用生成图中文字作为字体证据。
+
+- `fig-32-li.png`：Shallowell 摄《曹全碑》拓本照片的裁切、缩放与教学编排；原图和整张衍生图卡适用 **CC BY-SA 4.0**。作者、来源、变更与许可记录见 `expansion-image-sources.json` 及第32章，不将它并入其他原创资产许可。
+- `fig-32-seal.png`：《说文解字》“子”条公有领域扫描影像及局部放大，明确区分小篆字头、古文、籀文与释文；不作为现代数字篆体字体样张。
+- M PLUS Rounded 1c 为日文字库，本书仅用其汉字观察圆润笔端，不能代表简体中文规范。Source Serif 4 用于真实数字特性与光学字号比较。两者来源、原文件摘要、OFL许可路径见 `expansion-fonts.json`。
+- 现有 Mozilla Headline 原文件也用于网站字体实验台；网站保留其OFL文件。实验台显示该版本实际提供的 `wght` 与 `wdth`，没有虚构 `opsz`。
+- `PracticeGrid Atlas` 是本书原创七字母练习字体，包含空格及 A/E/H/I/L/O/T，未使用现成字体轮廓，原创网格与TTF按CC0提供，详见 `assets/designs/practice-font-README.md`。该许可仅针对这份练习资产。
+
+新增图稿采用 `scripts/make_expansion_figures.py` 重建；缺字体时使用 `--fetch-assets`。既有URW样张字体仍由 `scripts/fetch_fonts.py` 下载；七字母练习由 `scripts/build_practice_font.py` 重建。网站与EPUB直接使用成品PNG，不下载或重跑制图。
+
+EPUB含原始实践附件及对应XHTML说明页；字体和JSON需要解包提取或从在线版下载，不假定每个阅读器能直接安装字体。网页保留直接文件链接。

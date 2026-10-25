@@ -2,7 +2,7 @@ name: Publish reading site
 on:
   push:
     branches: [main]
-    paths: ['book.json', 'chapters/**', 'appendices/**', 'references/**', 'assets/images/**', 'assets/designs/**', 'site/**', 'scripts/build_site.py', 'scripts/check_site.py', 'scripts/book_fingerprint.py', 'requirements-site.txt', 'downloads/**', '.github/workflows/pages.yml']
+    paths: ['book.json', 'chapters/**', 'appendices/**', 'references/**', 'assets/images/**', 'assets/designs/**', 'assets/fonts/**', 'site/**', 'scripts/build_site.py', 'scripts/check_site.py', 'scripts/book_fingerprint.py', 'requirements-site.txt', 'downloads/**', '.github/workflows/pages.yml']
   pull_request:
   workflow_dispatch:
 permissions:

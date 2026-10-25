@@ -36,3 +36,35 @@
 | 子集化 | 按需要保留字体的部分内容 | 会改变覆盖范围，许可与重命名要求仍须核对 |
 
 进一步核对术语，可阅读 [FontForge 术语表](https://fontforge.org/docs/glossary.html)、[Microsoft OpenType 规范](https://learn.microsoft.com/en-us/typography/opentype/spec/)与 [Unicode 标准导论](https://www.unicode.org/standard/standard.html)。本表是入门解释，不替代规范中精确的数据结构定义。
+
+
+## 深化阅读：原词与容易混淆的关系
+
+| 中文术语 | 原词 | 在本书中的含义与区别 |
+|---|---|---|
+| 部件适配 | component adaptation | 同类部件进入不同结构时，调整比例、位置和笔画关系；不是固定积木的机械拼接 |
+| 字腔 | counter | 笔画包围或部分围合的内部空间；要同时观察封闭与开放空间 |
+| 光学校正 | optical correction | 为使视觉关系协调而进行的局部调整，不等于统一几何尺寸 |
+| 板状衬线 | slab serif | 衬线较厚重的一类造型特征，不能由单一字体概括全部分支 |
+| 模板字 | stencil | 为使材料中封闭部分不脱落而保留连接桥，或借用这种结构的字形设计 |
+| 行首行尾禁则 | line-start/line-end prohibition | 避免特定标点或符号落在不合适的行首、行尾；细则依语言与排版情境 |
+| 标点挤压 | punctuation compression | 调整相邻标点等的占位空间，不是把所有标点轮廓横向压扁 |
+| 齐线数字 | lining figures / lnum | 数字排列在统一的高度体系内；与是否等宽是两个分类维度 |
+| 旧式数字 | oldstyle figures / onum | 数字可有类似小写字母的高低变化，不能理解为“古旧字体” |
+| 比例数字 | proportional figures / pnum | 数字的前进宽度随字形而变；与齐线或旧式属性可组合 |
+| 等宽数字 | tabular figures / tnum | 数字具有一致前进宽度；不代表字体里的所有字符都是等宽 |
+| 负号 | minus sign | 数学减法或负数使用的符号，与连字符、破折号用途不同 |
+| 行进宽度 | advance width | 排字后绘制位置前进的距离，含轮廓和两侧空间，不是黑色轮廓宽度 |
+| 侧边距 | sidebearing | 字形轮廓与排字边界之间的距离，需在连续组合中判断 |
+| 字符映射 | character map / cmap | 把字符编码映射到字形索引；它不是字体的全部排版机制 |
+| 缺字字形 | .notdef glyph | 找不到对应字形时使用的字形，一般在字形顺序首位 |
+| 字体回退 | font fallback | 首选字体不能显示某字符时换用其他字体，不会自动保证风格和度量一致 |
+| 设计轴 | variation axis | 可变字体里由设计者定义的变化维度，有实际范围与默认值 |
+| 命名实例 | named instance | 对设计空间中特定坐标的命名，不是限制只能使用这几个值 |
+| 字重轴 | weight / wght | 字体提供的粗细变化维度，效果取决于该字体设计 |
+| 宽度轴 | width / wdth | 字体提供的宽窄变化维度，不等于软件把已有轮廓机械压缩 |
+| 光学字号轴 | optical size / opsz | 为不同使用尺寸调整字形细节的维度，不是界面的字号控件 |
+| 重排 | reflow | 文字在可用空间或显示大小变化后重新换行，保留内容和操作能力 |
+| 文本放大 | text resizing | 改变文字显示大小；须另测容器、行距、控件与内容是否适配 |
+
+OpenType 特性标签如 `tnum` 是字体可能提供的排版功能；CSS 属性只是调用入口，不能为未提供该功能的字体凭空增加字形。具体示例见第34、39、40章。

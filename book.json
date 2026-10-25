@@ -243,6 +243,86 @@
       "slug": "chapter-30",
       "figure": "assets/images/fig-30.png",
       "part": "part7"
+    },
+    {
+      "id": "ch31",
+      "title": "中文结构与部件适配",
+      "source": "chapters/31.md",
+      "slug": "chapter-31",
+      "figure": "assets/images/fig-31.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch32",
+      "title": "扩展字体图鉴：圆、窄、板状衬线与模板字",
+      "source": "chapters/32.md",
+      "slug": "chapter-32",
+      "figure": "assets/images/fig-32.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch33",
+      "title": "中文精细排版：标点、换行与竖排",
+      "source": "chapters/33.md",
+      "slug": "chapter-33",
+      "figure": "assets/images/fig-33.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch34",
+      "title": "数字与符号：文字系统里容易忽略的一半",
+      "source": "chapters/34.md",
+      "slug": "chapter-34",
+      "figure": "assets/images/fig-34.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch35",
+      "title": "连续书页：把清风读书会做成一本小册",
+      "source": "chapters/35.md",
+      "slug": "chapter-35",
+      "figure": "assets/images/fig-35.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch36",
+      "title": "海报：从平均用力到清楚邀请",
+      "source": "chapters/36.md",
+      "slug": "chapter-36",
+      "figure": "assets/images/fig-36.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch37",
+      "title": "包装：文字必须跟着折线回到立体",
+      "source": "chapters/37.md",
+      "slug": "chapter-37",
+      "figure": "assets/images/fig-37.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch38",
+      "title": "手机报名页：文字要在变化中继续工作",
+      "source": "chapters/38.md",
+      "slug": "chapter-38",
+      "figure": "assets/images/fig-38.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch39",
+      "title": "做一个能输入的七字母练习字体",
+      "source": "chapters/39.md",
+      "slug": "chapter-39",
+      "figure": "assets/images/fig-39.png",
+      "part": "part8"
+    },
+    {
+      "id": "ch40",
+      "title": "可变字体与屏幕上的真实阅读",
+      "source": "chapters/40.md",
+      "slug": "chapter-40",
+      "figure": "assets/images/fig-40.png",
+      "part": "part8"
     }
   ],
   "parts": [
@@ -316,6 +396,22 @@
         "ch28",
         "ch29",
         "ch30"
+      ]
+    },
+    {
+      "id": "part8",
+      "title": "第八篇：从细节到完整作品",
+      "chapters": [
+        "ch31",
+        "ch32",
+        "ch33",
+        "ch34",
+        "ch35",
+        "ch36",
+        "ch37",
+        "ch38",
+        "ch39",
+        "ch40"
       ]
     }
   ]

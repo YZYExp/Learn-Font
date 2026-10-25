@@ -18,5 +18,11 @@ for c in b['chapters']:
   if link.startswith(('https://','http://')):links.add(link)
   elif not link.startswith('#'):assert (p.parent/link.split('#')[0]).exists(),(p,link)
  count+=len(re.findall(r'[\u3400-\u9fff]',s))
-assert len(b['chapters'])==30
+ids=[c['id'] for c in b['chapters']]
+assert len(ids)==len(set(ids)), 'duplicate chapter IDs'
+assert len({c['slug'] for c in b['chapters']})==len(ids), 'duplicate routes'
+assert [id for part in b['parts'] for id in part['chapters']]==ids, 'part order differs from reading order'
+for part in b['parts']:
+ for id in part['chapters']:
+  assert next(c for c in b['chapters'] if c['id']==id)['part']==part['id']
 print(json.dumps({'chapters':len(b['chapters']),'han_characters':count,'chapter_images':len(images),'source_urls':len(links)},ensure_ascii=False))
