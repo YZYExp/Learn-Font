@@ -1,0 +1,27 @@
+[
+  {
+    "source_file": "assets/images/history-caoquan.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Caoquan_Bei_-_144020.jpg",
+    "author": "Shallowell",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sha256": "f64a9518cdbdb535e94126b1a1ba3757e6d3acc21df265c7d612b7f38c05902a",
+    "derivatives": [
+      "assets/images/fig-32-li.png"
+    ],
+    "changes": "Cropped, resized, and combined with Chinese educational captions. Photo perspective retained; no glyph reconstruction.",
+    "derivative_license": "CC BY-SA 4.0"
+  },
+  {
+    "source_file": "assets/images/history-shuowen-zi.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Shuowen-%E5%AD%90.png",
+    "author": "Xu Shen / Xu Xuan; Siku Quanshu Huiyao scan via Internet Archive; uploaded by Kanguole",
+    "license": "Public domain (PD-old-70 / pre-1931 publication)",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sha256": "e41040c9fcd9e3ed022cbca3fdf1b749da48d38633971aa6ff226c9e01c3bf56",
+    "derivatives": [
+      "assets/images/fig-32-seal.png"
+    ],
+    "changes": "Whole entry resized and small-seal headword at upper right cropped. No stroke reconstruction."
+  }
+]

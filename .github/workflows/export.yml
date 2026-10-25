@@ -2,7 +2,7 @@ name: Export EPUB
 on:
   push:
     branches: [main]
-    paths: ['book.json', 'chapters/**', 'appendices/**', 'assets/images/**', 'scripts/build_epub.py', 'requirements-export.txt', '.github/workflows/export.yml']
+    paths: ['book.json', 'chapters/**', 'appendices/**', 'assets/images/**', 'assets/designs/**', 'references/**', 'scripts/build_epub.py', 'scripts/check_book.py', 'requirements-export.txt', '.github/workflows/export.yml']
   pull_request:
   workflow_dispatch:
 permissions:
@@ -23,7 +23,9 @@ jobs:
           cache-dependency-path: requirements-export.txt
       - run: 'python -m pip install --only-binary=:all: -r requirements-export.txt'
       - name: Export and validate EPUB
-        run: python scripts/build_epub.py
+        run: |
+          python scripts/check_book.py
+          python scripts/build_epub.py
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: font-atlas-epub

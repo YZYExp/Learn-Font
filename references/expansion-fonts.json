@@ -1,0 +1,20 @@
+[
+  {
+    "file": "MPLUSRounded1c-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusrounded1c/MPLUSRounded1c-Regular.ttf",
+    "sha256": "b75708b53e45b06d17d470aeeca5b766e3d1b3999f03f13ec4eb863ca846c14c",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "assets/fonts/MPLUSRounded1c-OFL.txt",
+    "modified": false,
+    "use": "Japanese font; Han sample 清風讀書; not simplified-Chinese glyph model."
+  },
+  {
+    "file": "SourceSerif4Variable-Roman.otf",
+    "source": "https://raw.githubusercontent.com/adobe-fonts/source-serif/release/VAR/SourceSerif4Variable-Roman.otf",
+    "sha256": "867b73c6a954a4a64616906d179f94572a748790a1d022ebeeff07f56ea0221a",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "assets/fonts/SourceSerif4-OFL.txt",
+    "modified": false,
+    "use": "wght 200..900, opsz 8..60; default400/20. Real lnum/onum/pnum/tnum shaping."
+  }
+]
